@@ -1,0 +1,100 @@
+.generator {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top: 2em;
+    align-items: center;
+}
+
+.description {
+    margin: auto;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    
+    background: linear-gradient(rgb(186, 71, 199), rgb(72, 28, 78));
+}
+
+input {
+    width: 23em;
+    height: 3em;
+    border-style: none;
+    border-radius: 15px;
+    margin-right: 1em;
+    margin-left: 1em;
+    color: purple;
+    padding-left: 1em;
+}
+
+button {
+    height: 3em;
+    border-style: none;
+    border-radius: 15px;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: yellow;
+    color: purple;
+    font-weight: 500;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+h1, h2, li {
+    font-family: sans-serif;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-left: 1em;
+}
+
+.colorme {
+    color: yellow
+}
+
+#generatedTweet {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1em;
+    width: 20em;
+    margin-top: 5em;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+p:empty::before {
+    content: none; /* Hides empty paragraphs */
+}
+
+p:empty {
+    display: none;
+}

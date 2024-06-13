@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script src="fetch_gpt_tweets.js" defer></script>
+		<!--<script src="display_tweet.js"></script>-->
+	</head>
+	<body>
+		<nav>
+			<h2>soc<span class="colorme">ai</span>.me<h2>
+		</nav>
+		<div class="content">
+		<div class="description">
+			<h1>Your AI Tweet Generator</h1>
+			<ul>
+				<li>human-like high engaging social media posts</li>
+				<li>based on most recent news regarding your keywords</li>
+				<li>1-click content generation</li>
+			</ul>
+		</div>
+		<div class="generator">
+		<input id="key-input" placeholder="Enter Keywords"><br>
+		<input hidden placeholder="how many tweets do you need"><br>
+		<input hidden placeholder="maximum age of articles in days"><br>
+		<input hidden placeholder="x account name for tweeting style"><br>
+		
+		<button id="callFunctionButton">Generate Tweet</button>
+		</div>
+		<p id="generatedTweet"></p>
+		</div>
+		
+		<div hidden>Tweet Scheduler</div>
+	
+	</body>
+
+</html>

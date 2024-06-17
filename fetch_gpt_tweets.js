@@ -2,7 +2,7 @@ document.getElementById('callFunctionButton').addEventListener('click', function
     const keywords = document.getElementById('key-input').value.split(" ")
     const data = { keywords: keywords, tweet_count: '3' };
 
-    fetch('https://49.13.129.76:443/call_function', {
+    fetch('https:/socai.uk:5000/call_function', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

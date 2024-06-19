@@ -77,6 +77,25 @@ nav {
     color: yellow
 }
 
+.tool-tabs {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-family: sans-serif;
+	
+}
+
+.tool-tabs a{
+	font-weight: 600;
+	margin: 1em;
+	margin-top: 4em;
+}
+
+.tool-tabs .active{
+	padding-bottom:.5em;
+	border-bottom: 3px solid white;
+}
+
 #generatedTweet {
     position: absolute;
     left: 50%;
